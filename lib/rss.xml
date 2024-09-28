@@ -1,6 +1,211 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 28 Sep 2024 22:49:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 28 Sep 2024 22:49:33 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[readme.md]]></title><description><![CDATA[ 
- <br>Here's the documentation for the project]]></description><link>readme.md.html</link><guid isPermaLink="false">readme.md.md</guid><pubDate>Sat, 28 Sep 2024 22:48:36 GMT</pubDate></item><item><title><![CDATA[Bienvenido]]></title><description><![CDATA[ 
- <br>Esta es su nueva bóveda.<br>Cree una nota de algo, <a data-href="cree un enlace" href="\cree un enlace" class="internal-link" target="_self" rel="noopener">cree un enlace</a>, o pruebe <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Plugins/Importer" rel="noopener" class="external-link" href="https://help.obsidian.md/Plugins/Importer" target="_blank">el Importador</a>!<br>Cuando esté listo, borre esta nota y aprópiese de la bóveda]]></description><link>bienvenido.html</link><guid isPermaLink="false">Bienvenido.md</guid><pubDate>Sat, 28 Sep 2024 21:51:19 GMT</pubDate></item><item><title><![CDATA[JEJE]]></title><description><![CDATA[ 
- <br>Holi]]></description><link>jeje.html</link><guid isPermaLink="false">JEJE.md</guid><pubDate>Sat, 28 Sep 2024 21:52:32 GMT</pubDate></item><item><title><![CDATA[Readme]]></title><description><![CDATA[ 
- <br>Aquí ira toda la documentación del proyecto:<br>print("Hola")
-Copiar]]></description><link>readme.html</link><guid isPermaLink="false">Readme.md</guid><pubDate>Sat, 28 Sep 2024 21:52:19 GMT</pubDate></item></channel></rss>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[docs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>docs</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 28 Sep 2024 23:02:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 28 Sep 2024 23:02:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[How to Auto-Upload to Website]]></title><description><![CDATA[ 
+ <br><br>Instructions can be found on my blog post <a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/obsidian-publish-alternative-how-to-one-click-upload-your-notes-on-your-own-website/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/obsidian-publish-alternative-how-to-one-click-upload-your-notes-on-your-own-website/" target="_blank">here</a>.]]></description><link>getting-started\auto-upload-to-website.html</link><guid isPermaLink="false">getting-started/auto-upload-to-website.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[File structure]]></title><description><![CDATA[ 
+ <br><br>.
+└── obsidian-workflow-template/
+    ├── .github -&gt; Github repository files, can be deleted.
+    ├── .obsidian/
+    │   ├── plugins -&gt; Plugins location
+    │   ├── snippets -&gt; CSS snippets
+    │   ├── themes -&gt; Themes location
+    │   └── &gt; various config files -&gt; Obsidian and plugins config
+    ├── _Canvas -&gt; Obsidian canvas files
+    ├── _Media -&gt; Attachments location (images, pdf, etc)
+    ├── _Scripts -&gt; Scripts locations like taskCalendar and QuickAdd
+    ├── _Sources -&gt; Links saved in markdown format thanks to Omnivore
+    ├── -Daily-Notes -&gt; Daily notes (YYYY-MM-DD)
+    ├── -Periodic-Notes -&gt; Periodics notes (Weekly, Monthly, Quarterly and Yearly)
+    ├── 0-Inbox -&gt; Inbox for new notes
+    ├── 1-Projects -&gt; Projects notes
+    ├── 2-Areas -&gt; Areas notes that holds projects and recurring tasks
+    ├── 3-Resources -&gt; Zettelkasten note-taking location with a flat structure
+    ├── 4-Archives -&gt; Archives for old projects or notes no longer relevant
+    ├── 5-Templates -&gt; Templates files location
+    ├── Journal.md -&gt; Journal query
+    ├── Passions Backlog 🎮.md -&gt; Passions kanban board
+    ├── Someday Maybe 💭.md -&gt; Someday Maybe list of things to do
+    ├── README.md -&gt; Github repository file, can be deleted.
+    └── LICENCE -&gt; Github repository file, can be deleted.
+Copiar]]></description><link>getting-started\file-structure.html</link><guid isPermaLink="false">getting-started/file-structure.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Installation]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>Go to the <a data-tooltip-position="top" aria-label="https://github.com/mathisgauthey/obsidian-workflow-template/releases" rel="noopener" class="external-link" href="https://github.com/mathisgauthey/obsidian-workflow-template/releases" target="_blank">release page</a> of the repository and download the latest release.
+<br>Extract the archive in your desired vault location (eg:C:\Users\USER_NAME\Documents).
+<br>Rename the folder to your desired VAULT_NAME.
+<br>You can safely remove the README.md file, the LICENCE file and the .github folder. They are useless for you.
+<br>Open Obsidian and select that folder as a vault.
+<br>Go to the community plugin tab and turn off Restricted Mode to activate the vault plugins.
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://github.com/jamiebrynes7/obsidian-todoist-plugin#usage" rel="noopener" class="external-link" href="https://github.com/jamiebrynes7/obsidian-todoist-plugin#usage" target="_blank">Log in to the obsidian-todoist plugin</a> by using your <a data-tooltip-position="top" aria-label="https://app.todoist.com/app/settings/integrations/developer" rel="noopener" class="external-link" href="https://app.todoist.com/app/settings/integrations/developer" target="_blank">Todoist API token</a>.
+<br><a data-tooltip-position="top" aria-label="https://github.com/omnivore-app/obsidian-omnivore#installation" rel="noopener" class="external-link" href="https://github.com/omnivore-app/obsidian-omnivore#installation" target="_blank">Log in to the obsidian-omnivore plugin</a> by using your <a data-tooltip-position="top" aria-label="https://omnivore.app/settings/api" rel="noopener" class="external-link" href="https://omnivore.app/settings/api" target="_blank">Omnivore API key</a>.
+<br><a data-tooltip-position="top" aria-label="https://obsidian-publisher.netlify.app/plugin/settings/github/" rel="noopener" class="external-link" href="https://obsidian-publisher.netlify.app/plugin/settings/github/" target="_blank">Log in to the obsidian-github-publisher plugin</a> by using your <a data-tooltip-position="top" aria-label="https://github.com/settings/tokens/new?scopes=repo" rel="noopener" class="external-link" href="https://github.com/settings/tokens/new?scopes=repo" target="_blank">Github token</a>.
+<br><br>To be honest, I don't plan on updating this project anymore except by resolving user issues. So you should not have to update it.]]></description><link>getting-started\installation.html</link><guid isPermaLink="false">getting-started/installation.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Requirements]]></title><description><![CDATA[ 
+ <br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://obsidian.md/download" rel="noopener" class="external-link" href="https://obsidian.md/download" target="_blank">Obsidian app</a>.
+<br><a data-tooltip-position="top" aria-label="https://todoist.com/downloads" rel="noopener" class="external-link" href="https://todoist.com/downloads" target="_blank">Todoist</a> (free is enough) for an easy, fast and accessible inbox on any of your devices.
+<br><a data-tooltip-position="top" aria-label="https://omnivore.app/" rel="noopener" class="external-link" href="https://omnivore.app/" target="_blank">Omnivore</a> for read-it-later and bookmark manager with automated markdown conversion for offline use.
+<br><a data-tooltip-position="top" aria-label="https://github.com/" rel="noopener" class="external-link" href="https://github.com/" target="_blank">Github</a> account for hosting your website on Github Pages.
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://super-productivity.com/" rel="noopener" class="external-link" href="https://super-productivity.com/" target="_blank">Super Productivity</a> if you want to separate your organisation (Obsidian) from your daily execution (Super Productivity).
+<br><a data-tooltip-position="top" aria-label="https://www.google.com/" rel="noopener" class="external-link" href="https://www.google.com/" target="_blank">Google</a> account if you want to add some Google Calendar integration to your periodic notes. Note: This will not be explained in the docs as this was used in <a data-tooltip-position="top" aria-label="https://github.com/mathisgauthey/obsidian-workflow-template/releases/tag/0.0.1" rel="noopener" class="external-link" href="https://github.com/mathisgauthey/obsidian-workflow-template/releases/tag/0.0.1" target="_blank">0.0.1 version</a> of the template only. But you can do it yourself using <a data-tooltip-position="top" aria-label="https://github.com/YukiGasai/obsidian-google-calendar" rel="noopener" class="external-link" href="https://github.com/YukiGasai/obsidian-google-calendar" target="_blank">obsidian-google-calendar plugin</a> or <a data-tooltip-position="top" aria-label="https://github.com/Ellpeck/ObsidianCustomFrames" rel="noopener" class="external-link" href="https://github.com/Ellpeck/ObsidianCustomFrames" target="_blank">obsidian-custom-frames plugin</a>
+]]></description><link>getting-started\requirements.html</link><guid isPermaLink="false">getting-started/requirements.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Why should you use this template ?]]></title><description><![CDATA[ 
+ <br><br><br>It embraces many relevant and high level productivity concepts alongside <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a>'s <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Getting+started/Link+notes" rel="noopener" class="external-link" href="https://help.obsidian.md/Getting+started/Link+notes" target="_blank">powerful note linking feature</a> while still being usable as a simple "I create a simple daily checklist with a few notes" in case of existential crisis. → That means the system will last.<br><br>Of course using Obsidian also mean offline access and data possession. You can sync your data yourself using <a data-tooltip-position="top" aria-label="https://github.com/denolehov/obsidian-git" rel="noopener" class="external-link" href="https://github.com/denolehov/obsidian-git" target="_blank">obsidian-git</a> plugin. If the mobile (android) version doesn't work the way you want despite the plugin active development, you can follow one of my guides :<br>
+<br><a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/using-git-to-sync-your-obsidian-vault-on-android-devices/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/using-git-to-sync-your-obsidian-vault-on-android-devices/" target="_blank">One using cron jobs to sync at regular intervals</a>
+<br><a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/how-to-use-obsidian-git-sync-on-android/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/how-to-use-obsidian-git-sync-on-android/" target="_blank">Another one that sync at Obsidian's app startup</a>
+<br>Or just pay for the encrypted <a data-tooltip-position="top" aria-label="https://obsidian.md/sync" rel="noopener" class="external-link" href="https://obsidian.md/sync" target="_blank">obsidian-sync</a> official plugin.]]></description><link>getting-started\why-should-you-use-this-template.html</link><guid isPermaLink="false">getting-started/why-should-you-use-this-template.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Auto-upload to websites]]></title><description><![CDATA[ 
+ <br><br><br>I encourage you to follow the <a class="internal-link" data-href="../getting-started/auto-upload-to-website.md" href="\getting-started\auto-upload-to-website.html" target="_self" rel="noopener">installation instructions</a> first.<br><br>Notes are created with a YAML field called share. It is set to false by default. Change it to true.<br>Then select the command Upload filename to DEFAULT from the More options at the top right of your note.<br>Wait a little bit and your note will be uploaded to your website along with its attachments.<br>The posts will be sent to the content/post folder and the attachments to the content/images folder.<br><br>I configured some regex to convert my notes to Hugo's markdown format.<br>Images :<br>/!\[\[([^[\]]+)\]\]/gi → ![$1](/images/$1)<br>Other notes links :<br>/\[\[([^|\]]+)\|([^\]]+)\]\]|\[\[([^\]|]+)\]\]/gi → [$2$3]({{&lt; ref "$1$3" &gt;}})]]></description><link>usage\github-publisher.html</link><guid isPermaLink="false">usage/github-publisher.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Journaling]]></title><description><![CDATA[ 
+ <br><br><br>Every daily and periodic notes has a Journal 📓 section. You can add your journal entries here.<br>In daily notes, the mood inline field is a 1-5 notation for the day, from really bad (1) to genial day (5).<br><br>The Journal YYYY 📓.md file at the root of your vault contains a beaufitul heatmap-calendar from the obsidian-heatmap-calendar plugin.<br>There's also a query that shows every journal entries from the current year, allowing you to search for a word inside every journal entries at once in obsidian reading view.]]></description><link>usage\journaling.html</link><guid isPermaLink="false">usage/journaling.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Passions Backlog 🎮]]></title><description><![CDATA[ 
+ <br><br><br>The passions backlog is a giant kanban board that allows you to track your passions and media consumption.<br>.
+├── Wishlist -&gt; Things you want to do
+├── Possessions -&gt; Things you have, or have the resources to do
+├── Backlog -&gt; Next things you want to do
+├── Doing -&gt; Things you're currently doing on your own
+├── Doing On The Go -&gt; Things you're currently doing on your own, but easily transportable (eg: books)
+├── Doing Couple -&gt; Watching a show with your GF ? There you go.
+├── Doing Friends -&gt; Playing with the boys ? There you go.
+├── 2024 -&gt; The next are self explicit, I enjoy seeing things I've done by year.
+├── 2023
+├── 2022
+├── Before 2022 -&gt; That's when I transitionned to Obsidian.
+├── Abandonned -&gt; At least you tried...
+└── Never Tried, Never Will -&gt; You got it, you have it, but you'll never do it.
+Copiar<br><br>I'd recommend adding items simply using the obsidian-kanban view and moving them across columns.<br>But if you want extra data during your daily Logs 🪵, I also recommend going into markdown mode for creating items. That'll add a ➕ CREATION_DATE.<br>If you finish something, you can add a ✅ COMPLETION_DATE inline field before moving it to the year column. Or if you're already in markdown mode, toggling the task will do it.<br>Same goes for the ❌ CANCELLED_DATE inline field before moving items to Abandonned or Never Tried, Never Will.<br><br>There's a small query in your daily note that shows you the items inside columns that contains the word Doing. That way you can see what you can currently do each day.]]></description><link>usage\passions-backlog.html</link><guid isPermaLink="false">usage/passions-backlog.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Read-it-later and bookmark manager]]></title><description><![CDATA[ 
+ <br><br><br>Every link you saved using Omnivore will be saved and synced as a markdown file in your vault.<br>It allows for easy search inside your knowledge base across your sources and notes. You can also link these notes during your write-ups.<br><br>This part is pretty simple. You simply need to connect your Omnivore account, add some pages to your inbox. It will then be synced to Obsidian inside the _Sources folder each time you use the Omnivore button on Obsidian left side bar or every 5 min.<br><br>Front matter template :<br>id: {{{id}}}
+title: &gt;
+  {{{title}}}
+{{#author}}
+author: &gt;
+  {{{author}}}
+{{/author}}
+{{#labels.length}}
+tags:
+{{#labels}} - {{{name}}}
+{{/labels}}
+{{/labels.length}}
+state: {{{state}}}
+date_published: {{{datePublished}}}
+date_saved: {{{dateSaved}}}
+date_read: {{{dateRead}}}
+date_archived: {{#formatDate}}{{{dateArchived}}},"yyyy-MM-dd HH:mm:ss"{{/formatDate}}
+Copiar<br>Article template :<br># {{{title}}}
+
+#Omnivore
+
+[Read on Omnivore]({{{omnivoreUrl}}})
+[Read Original]({{{originalUrl}}})
+
+{{#note}}
+## Notes
+
+{{{note}}}
+{{/note}}
+
+{{#highlights.length}}
+## Highlights
+
+{{#highlights}}
+&gt; {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #{{name}} {{/labels}}
+{{#note}}
+
+{{{note}}}
+{{/note}}
+
+{{/highlights}}
+{{/highlights.length}}
+## Webpage
+
+{{{content}}}
+Copiar]]></description><link>usage\read-it-later.html</link><guid isPermaLink="false">usage/read-it-later.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Tasks and projects creation]]></title><description><![CDATA[ 
+ <br><br><br><br>You can write tasks almost everywhere in your vault using the ctrl+alt+Q shortcut, or simply typing a markdown task.<br>The excluded folder are :<br>_Sources -&gt; You don't want online links tasks to be shown as tasks
+5-Templates -&gt; Template files are excluded as well
+Copiar<br>The tasks will then be shown in the obsidian-tasks queries inside your daily and periodic notes.<br><br>A project is just a task enclosed in double brackets like that : [[TASK_NAME]].<br>Example :<br>- [ ] [[TASK_NAME]] ➕ 2023-05-07 📅 2024-01-31
+Copiar<br>This way, you can create a project note by clicking on the task link. And add some tasks inside !<br>Projects are supposed to be created within an Area file of your choice in your 2-Areas folder. But there's no obligation, it just helps focusing on the right things.<br>Don't forget to move your projects notes to the 1-Projects folder for easier management.<br>!!! warning "There's the project markdown task, and there's the markdown note"<br>
+The markdown tasks using the obsidian-tasks properties holds a note in place of the task.description. That means when a project is done, you should mark the task as done, and move the project note from the 1-Projects folder to the 4-Archives folder.<br><br>You can use the QuickAdd plugin to create a task or a project.<br>Simply click on the QuickAdd button Create Something in the left ribbon and select the type of task you want to create :<br>
+<br>Create Project -&gt; Create a project in an Area file of your choice in your 2-Areas.
+<br>Create One-Off Task -&gt; Create a task in the Notes part of today's daily note
+<br>Someday Maybe -&gt; Create a list item in your Someday maybe inbox.
+<br>Create Passion -&gt; Create a new passion/media in your Passions Backlog 🎮 kanban board
+<br><br>You can import your todoist tasks using the Import from Todoist QuickAdd button in the left ribbon. You then just need to select the tasks you want.<br>This required to have the obsidian-todoist plugin configured. Please refer to the <a class="internal-link" data-href="../getting-started/installation.md#how-to-login-to-plugins" href="\getting-started\installation.html#how-to-login-to-plugins" target="_self" rel="noopener">installation instructions.</a><br>You'll have access to the same choices as the Create Something button, while also being able to :<br>
+<br>Import selected Todoist tasks into your cursor position as well.
+<br><br>
+<br>One-off tasks : Tasks created in the Notes 📝 part of today's daily note are considered as one-off tasks, meaning tasks that are not part of a project.
+<br>Project tasks : Tasks created in a project note are considered as project tasks, meaning tasks that are part of a project. To be fair, every tasks not in a daily-note are considered as project tasks.
+<br>Focus 🔥 &amp; Goals 🎯 : Tasks created in the PERIOD Focus 🔥 &amp; Goals 🎯 section of a daily or periodic notes will be considered as stuff you want to focus on during the period, or goals you want to achieve.
+<br>Passions Backlog 🎮 : Tasks created in the Passions Backlog 🎮 kanban board are considered as passion tasks, meaning medias to watch, play, read, etc.
+<br>Someday maybe 💭 : Tasks created in the Someday maybe file are not really tasks but just list items. They will one day be moved to action somewhere.
+<br><br>A task always have :<br>
+<br>A status
+<br>A task can have :<br>
+<br>A created date
+<br>A start date
+<br>A scheduled date
+<br>A due date
+<br>A done date
+<br>A cancelled date
+<br>A reccurence rule
+<br>A priority
+<br>One or many tags (using the # symbol)
+<br>Tags should come after the task.description and before the task.properties :<br>- [ ] TASK_NAME #tag1 #tag2 #tag3 PRIORITY_ICON 🔁 RECCURENCE_RULE ➕ CREATION_DATE OTHER DATES...
+Copiar<br>GTD tags with associated queries in daily and periodic notes are :<br>
+<br>#next for next actions -&gt; Other tags in the tasks are considered as contexts (eg: #next #computer will be considered as an action to do next when using a computer)
+<br>#waiting for waiting for tasks
+<br>#delegated for delegated tasks
+<br>These may evolve with obsidian-tasks plugin, and you should refer to the <a data-tooltip-position="top" aria-label="https://publish.obsidian.md/tasks/Introduction" rel="noopener" class="external-link" href="https://publish.obsidian.md/tasks/Introduction" target="_blank">official documentation</a> for more informations.<br><br>
+<br>- [ ] -&gt; Tasks to do
+<br>- [/] -&gt; Tasks in progress
+<br>- [x] -&gt; Tasks done
+<br>- [-] -&gt; Tasks cancelled
+<br>- [?] -&gt; Tasks on-hold
+<br>Clicking on a task status will change it to the next status.<br>- [ ] -&gt; - [/] -&gt; - [x] -&gt; - [ ]<br>You can also change a task status by <a data-tooltip-position="top" aria-label="https://publish.obsidian.md/tasks/Editing/Toggling+and+Editing+Statuses" rel="noopener" class="external-link" href="https://publish.obsidian.md/tasks/Editing/Toggling+and+Editing+Statuses" target="_blank">many different ways</a>.]]></description><link>usage\tasks-and-projects-creation.html</link><guid isPermaLink="false">usage/tasks-and-projects-creation.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Tasks and projects management]]></title><description><![CDATA[ 
+ <br><br><br>The workflow is entirely inspired from the book Getting Things Done from David Allen. Here's a <a data-tooltip-position="top" aria-label="https://todoist.com/productivity-methods/getting-things-done" rel="noopener" class="external-link" href="https://todoist.com/productivity-methods/getting-things-done" target="_blank">quick overview</a> :<br>
+<br>Add items to the todoist inbox everytime you have an idea or a task to do. To cite David Allen, the creator of the GTD method, "Your mind is for having ideas, not holding them".
+<br>Clarify and organize your inbox items and add them to the appropriate part of your vault (One-off tasks, projects, project tasks, passions items, someday maybe). Add tags, dates, and any relevant properties that will make you do it at the right time in the future or at least remember them.
+<br>Engage with your tasks and projects by using your daily note to direct your actions. I personally pick my tasks from the Today ☀️ section of my daily note, and I copy them to Super Productivity. I then add an estimated time to each task and start working on them.
+<br>Review your system periodicly to make sure you are on track and that you have not forgotten anything. I personally do it on Sunday evening.
+<br><br>The Daily Note is the main part of your workflow. It has :<br>
+<br>Links to access higher periods
+<br>Links to access previous and next days
+<br>Today ☀️ section -&gt; Contains tasks with a happens date set to today or before, or tasks in progress. Tasks are then grouped by projects or tasks, and by due or overdue. You also get a small #next actions querry.
+<br>Notes 📝 section -&gt; For adding notes and tasks as one-off tasks.
+<br>Inbox 📥 section -&gt; A simple todoist-inbox-query to see easily if you have <a data-tooltip-position="top" aria-label="https://todoist.com/productivity-methods/getting-things-done#capture" rel="noopener" class="external-link" href="https://todoist.com/productivity-methods/getting-things-done#capture" target="_blank">captured</a> items to <a data-tooltip-position="top" aria-label="https://todoist.com/productivity-methods/getting-things-done#clarify" rel="noopener" class="external-link" href="https://todoist.com/productivity-methods/getting-things-done#clarify" target="_blank">clarify and organize</a>.
+<br>Dashboard 🗺️ section -&gt; Multiple queries to see overdue, do today, upcoming in the next 30 days, recurring tasks, next actions, projects,  waiting for tasks, delegated tasks, and your focus and goals.
+<br>Passions 🎮 section -&gt; A query that get your current passions and media from your Passions Backlog 🎮 kanban board. It uses the Doing keyword in titles to get the current passions and media.
+<br>Logs 🪵 section -&gt; A query that get your created tasks and projects as well as your tasks and projects done today.
+<br>Daily Focus 🔥 &amp; Goals 🎯 section -&gt; Add your daily focuses and goals here as markdown tasks. A tag #focus or #goals is required.
+<br>Journal 📓 section -&gt; Add your journal entries here. The mood inline field is a 1-5 notation for the day, from really bad (1) to genial day (5).
+<br><br>You get almost the same sections as the daily notes, but you also have :<br>
+<br>A <a data-tooltip-position="top" aria-label="https://github.com/mathisgauthey/Obsidian-Tasks-Calendar" rel="noopener" class="external-link" href="https://github.com/mathisgauthey/Obsidian-Tasks-Calendar" target="_blank">modified Tasks-Calendar</a> in the Dashboard 🗺️ in the weekly and monthly notes.
+<br>Underground 🚇 section -&gt; Queries that have projects grouped by areas, usefull when trying to balance workload. You also get the unplanned and on hold tasks and projects queries.
+]]></description><link>usage\tasks-and-projects-management.html</link><guid isPermaLink="false">usage/tasks-and-projects-management.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Template files]]></title><description><![CDATA[ 
+ <br><br><br>My templater plugin configuration uses the Filename-Template.md file to choose what to do with a file when it is created.<br>Basically, if it is created with a daily or periodic note title type, it will select the appropriate template and folder :<br>{ format: "YYYY-MM-DD", template: "Daily-Notes.md" },
+{ format: "GGGG-[W]WW", template: "Weekly-Notes.md" },
+{ format: "YYYY-MM", template: "Monthly-Notes.md" },
+{ format: "YYYY-[Q]Q", template: "Quarterly-Notes.md" },
+{ format: "YYYY", template: "Yearly-Notes.md" },
+Copiar<br>If not, it will just use either the Area template or the default template for the inbox :<br>{ format: "Area", template: "Areas.md" },
+{ format: "Default", template: "Untitled.md" },
+Copiar<br>Thanks a lot to ljavuras on Github for the <a data-tooltip-position="top" aria-label="https://github.com/ljavuras/obsidian-power-tools/tree/main/Filename%20Template" rel="noopener" class="external-link" href="https://github.com/ljavuras/obsidian-power-tools/tree/main/Filename%20Template" target="_blank">idea</a>.]]></description><link>usage\template-files.html</link><guid isPermaLink="false">usage/template-files.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item><item><title><![CDATA[Welcome to the obsidian-workflow-template-docs]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>🎨 Beautiful design using <a data-tooltip-position="top" aria-label="https://github.com/AnubisNekhet/anuppuccin" rel="noopener" class="external-link" href="https://github.com/AnubisNekhet/anuppuccin" target="_blank">AnuPpuccin: Personal theme for Obsidian</a>.
+<br>🗃️ <a data-tooltip-position="top" aria-label="https://fortelabs.com/blog/para/" rel="noopener" class="external-link" href="https://fortelabs.com/blog/para/" target="_blank">P.A.R.A</a><a data-footref="1" href="\#fn-1-686966ab5b1dc574" class="footnote-link" target="_self" rel="noopener">[1]</a> folder organisation based on file actionability.
+<br>✅ <a data-tooltip-position="top" aria-label="https://gettingthingsdone.com/" rel="noopener" class="external-link" href="https://gettingthingsdone.com/" target="_blank">GTD</a><a data-footref="2" href="\#fn-2-686966ab5b1dc574" class="footnote-link" target="_self" rel="noopener">[2]</a> task management on par with a <a data-tooltip-position="top" aria-label="https://todoist.com/fr/productivity-methods/getting-things-done" rel="noopener" class="external-link" href="https://todoist.com/fr/productivity-methods/getting-things-done" target="_blank">full Todoist setup</a>, but with a simple and natural way of writing tasks alongside notes. You also get to keep your project tasks, notes and files archives when you finish a project, allowing you to access these informations in the future.
+<br>📅 Daily notes for task management, periodic notes for projects management (week, month, quarter and year).
+<br>📓 Journal section for each daily and periodic notes to write about anything that happened during a certain period of time.
+<br>🎮 Media backlog Kanban board for tracking books, shows, movies or video games backlog, consuming media at the right pace, and archiving what you do. All without proprietary online services that hold you data.
+<br>🔗 Read-it-later / bookmark manager with automated markdown conversion for offline storage inside your vault using <a data-tooltip-position="top" aria-label="https://omnivore.app/" rel="noopener" class="external-link" href="https://omnivore.app/" target="_blank">Omnivore app</a>. That means easy search for knowledge inside your vault across sources and personal notes.
+<br>📝 <a data-tooltip-position="top" aria-label="https://everlaab.com/methode-zettelkasten-comment-prendre-des-notes-utiles/" rel="noopener" class="external-link" href="https://everlaab.com/methode-zettelkasten-comment-prendre-des-notes-utiles/" target="_blank">Zettelkasten note-taking</a> on a flat structure inside 3-Resources folder.
+
+<br>📎 Import sources automatically using <a data-tooltip-position="top" aria-label="https://github.com/omnivore-app/obsidian-omnivore" rel="noopener" class="external-link" href="https://github.com/omnivore-app/obsidian-omnivore" target="_blank">obsidian-omnivore</a> plugin for an automatic markdown conversion of a webpage or document online or manually from a file or using <a data-tooltip-position="top" aria-label="https://github.com/deathau/markdownload" rel="noopener" class="external-link" href="https://github.com/deathau/markdownload" target="_blank">markdownload</a>.
+<br>Highlight and take reference notes using <a data-tooltip-position="top" aria-label="https://omnivore.app/" rel="noopener" class="external-link" href="https://omnivore.app/" target="_blank">Omnivore app</a> or directly inside your vault using a simple markdown file.
+<br>Write literature notes to summarise the source informations.
+<br>Write permanent notes from key concepts directly inside literature notes using wiki-links.
+
+
+<br>🌐 One click upload of file and attachments to a <a data-tooltip-position="top" aria-label="https://gohugo.io/" rel="noopener" class="external-link" href="https://gohugo.io/" target="_blank">Hugo</a> website hosted on <a data-tooltip-position="top" aria-label="https://pages.github.com/" rel="noopener" class="external-link" href="https://pages.github.com/" target="_blank">Github Pages</a> thanks to <a data-tooltip-position="top" aria-label="https://github.com/ObsidianPublisher/obsidian-github-publisher" rel="noopener" class="external-link" href="https://github.com/ObsidianPublisher/obsidian-github-publisher" target="_blank">obsidian-github-publisher</a> plugin.
+<br><br>If you used the <a data-tooltip-position="top" aria-label="https://github.com/mathisgauthey/obsidian-workflow-template/releases/tag/0.0.1" rel="noopener" class="external-link" href="https://github.com/mathisgauthey/obsidian-workflow-template/releases/tag/0.0.1" target="_blank">template during 2023</a>, you may want to check the previous documentation that is hosted as blog posts on my website:<br>
+<br><a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/my-complete-obsidian-workflow-to-manage-my-life/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/my-complete-obsidian-workflow-to-manage-my-life/" target="_blank">My Complete Obsidian Workflow to Manage My Life</a>
+<br><a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/obsidian-publish-alternative-how-to-one-click-upload-your-notes-on-your-own-website/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/obsidian-publish-alternative-how-to-one-click-upload-your-notes-on-your-own-website/" target="_blank">Obsidian Publish Alternative, How to One-Click Upload Your Notes on Your Own Website</a>
+<br><a data-tooltip-position="top" aria-label="https://mathisgauthey.github.io/why-using-obsidian-for-life-management/" rel="noopener" class="external-link" href="https://mathisgauthey.github.io/why-using-obsidian-for-life-management/" target="_blank">Why Using Obsidian for Life Management</a>
+<br><br><br>
+<br>
+<br>Project.Areas.Resources.Archives<a href="\#fnref-1-686966ab5b1dc574" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+<br>Getting Things Done<a href="\#fnref-2-686966ab5b1dc574" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sat, 28 Sep 2024 23:01:11 GMT</pubDate></item></channel></rss>
